@@ -1,0 +1,19 @@
+[user]
+	name = Ian Partridge
+	email = i.partridge@uk.ibm.com
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[push]
+	default = simple
+[format]
+	pretty = oneline
+[log]
+	abbrevCommit = true
+	decorate = true
+[alias]
+[color]
+	ui = true
+[pull]
+	rebase = true
